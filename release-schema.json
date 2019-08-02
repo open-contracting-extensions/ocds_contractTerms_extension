@@ -1,0 +1,61 @@
+{
+  "definitions": {
+    "Tender": {
+      "properties": {
+        "contractTerms": {
+          "title": "Contract terms",
+          "description": "Information about the terms governing the future contract for a tender.",
+          "$ref": "#/definitions/ContractTerms"
+        }
+      }
+    },
+    "Lot": {
+      "properties": {
+        "contractTerms": {
+          "title": "Contract terms",
+          "description": "Information about the terms governing the future contract for a particular lot.",
+          "$ref": "#/definitions/ContractTerms"
+        }
+      }
+    },
+    "ContractTerms": {
+      "title": "Contract terms",
+      "description": "Information about the terms governing the future contract.",
+      "type": "object",
+      "properties": {
+        "hasElectronicPayment": {
+          "title": "Electronic payment used",
+          "description": "Whether electronic payment is used.",
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "hasElectronicOrdering": {
+          "title": "Electronic ordering used",
+          "description": "Whether electronic ordering is used.",
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "electronicInvoicing": {
+          "title": "Electronic invoicing",
+          "description": "Whether the buyer will require, allow or not allow electronic invoices.",
+          "type": [
+            "string",
+            "null"
+          ],
+          "openCodelist": false,
+          "codelist": "permission.csv",
+          "enum": [
+            "required",
+            "allowed",
+            "notAllowed",
+            null
+          ]
+        }
+      }
+    }
+  }
+}
