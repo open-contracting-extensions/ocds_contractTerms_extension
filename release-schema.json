@@ -54,6 +54,22 @@
             "notAllowed",
             null
           ]
+        },
+        "hasReservedExecution": {
+          "title": "Reserved execution used",
+          "description": "Whether the execution of the contract must be performed in the framework of sheltered employment programmes.",
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "termsPerformance": {
+          "title": "Terms performance",
+          "description": "The main information about the performance of the contract (e.g. intermediary deliverables, compensation for damages, intellectual property rights).",
+          "type": [
+            "string",
+            "null"
+          ]
         }
       }
     }
