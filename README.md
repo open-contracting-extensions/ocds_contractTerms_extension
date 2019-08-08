@@ -18,7 +18,7 @@ In the European Union, this extension's fields correspond to [eForms BG-711 (Con
         "contractTerms": {
             "hasElectronicPayment": true,
             "hasElectronicOrdering": false,
-            "electronicInvoicing": "required",
+            "electronicInvoicingPolicy": "required",
             "hasReservedExecution": false,
             "termsPerformance": "A set of KPIs will be developed for this contract and the successful contractor will be measured against these for the duration of the contract. Please refer to briefing document for further details."
         }

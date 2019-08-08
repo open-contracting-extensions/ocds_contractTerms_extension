@@ -39,8 +39,8 @@
             "null"
           ]
         },
-        "electronicInvoicing": {
-          "title": "Electronic invoicing",
+        "electronicInvoicingPolicy": {
+          "title": "Electronic invoicing policy",
           "description": "Whether the buyer will require, allow or not allow electronic invoices.",
           "type": [
             "string",
