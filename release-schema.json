@@ -13,7 +13,7 @@
       "properties": {
         "contractTerms": {
           "title": "Contract terms",
-          "description": "Information about the terms governing the future contract for a particular lot.",
+          "description": "Information about the terms governing the future contract for the lot.",
           "$ref": "#/definitions/ContractTerms"
         }
       }
