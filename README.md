@@ -12,7 +12,6 @@ In the European Union, this extension's fields correspond to [eForms BG-711 (Con
 
 
 ```json
-
 {
   "tender": {
     "contractTerms": {
@@ -24,7 +23,6 @@ In the European Union, this extension's fields correspond to [eForms BG-711 (Con
     }
   }
 }
-
 ```
 
 ## Issues
