@@ -4,7 +4,7 @@
       "properties": {
         "contractTerms": {
           "title": "Contract terms",
-          "description": "Information about the terms governing the future contract for a tender.",
+          "description": "Information about the terms governing the future contract from the procedure.",
           "$ref": "#/definitions/ContractTerms"
         }
       }
