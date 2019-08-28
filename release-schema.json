@@ -4,7 +4,7 @@
       "properties": {
         "contractTerms": {
           "title": "Contract terms",
-          "description": "Information about the terms governing the future contract from the procedure.",
+          "description": "Information about the terms governing the future contracts from the procedure.",
           "$ref": "#/definitions/ContractTerms"
         }
       }
@@ -13,14 +13,14 @@
       "properties": {
         "contractTerms": {
           "title": "Contract terms",
-          "description": "Information about the terms governing the future contract for the lot.",
+          "description": "Information about the terms governing the future contracts for the lot.",
           "$ref": "#/definitions/ContractTerms"
         }
       }
     },
     "ContractTerms": {
       "title": "Contract terms",
-      "description": "Information about the terms governing the future contract.",
+      "description": "Information about the terms governing the future contracts.",
       "type": "object",
       "properties": {
         "hasElectronicPayment": {
@@ -57,7 +57,7 @@
         },
         "hasReservedExecution": {
           "title": "Reserved execution used",
-          "description": "Whether the execution of the contract must be performed in the framework of sheltered employment programmes.",
+          "description": "Whether the execution of the contract needs to be performed in the framework of sheltered employment programmes.",
           "type": [
             "boolean",
             "null"
