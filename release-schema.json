@@ -63,7 +63,7 @@
             "null"
           ]
         },
-        "termsPerformance": {
+        "performanceTerms": {
           "title": "Terms performance",
           "description": "The main information about the performance of the contract (e.g. intermediary deliverables, compensation for damages, intellectual property rights).",
           "type": [
