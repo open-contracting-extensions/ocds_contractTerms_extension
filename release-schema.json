@@ -63,6 +63,14 @@
             "null"
           ]
         },
+        "reservedExecution": {
+          "title": "Reserved execution",
+          "description": "The profession or type of supplier to which the execution of the contract is reserved.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
         "performanceTerms": {
           "title": "Terms performance",
           "description": "The main information about the performance of the contract (e.g. intermediary deliverables, compensation for damages, intellectual property rights).",
@@ -82,14 +90,6 @@
         "tendererLegalForm": {
           "title": "Tenderer legal form",
           "description": "A certain legal form that must be taken by a group of tenderers that is awarded a contract.",
-          "type": [
-            "string",
-            "null"
-          ]
-        },
-        "reservedExecution": {
-          "title": "Reserved execution",
-          "description": "Whether the execution of the contract must be performed in the framework of sheltered employment programmes.",
           "type": [
             "string",
             "null"
