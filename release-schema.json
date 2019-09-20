@@ -70,6 +70,30 @@
             "string",
             "null"
           ]
+        },
+        "financialTerms": {
+          "title": "Financial terms",
+          "description": "The main information about financing and payment and/or reference to any provisions that govern them.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "tendererLegalForm": {
+          "title": "Tenderer legal form",
+          "description": "A certain legal form that must be taken by a group of tenderers that is awarded a contract.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "reservedExecution": {
+          "title": "Reserved execution",
+          "description": "Whether the execution of the contract must be performed in the framework of sheltered employment programmes.",
+          "type": [
+            "string",
+            "null"
+          ]
         }
       }
     }

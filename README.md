@@ -20,7 +20,10 @@ In the European Union, this extension's fields correspond to [eForms BG-711 (Con
             "hasElectronicOrdering": false,
             "electronicInvoicingPolicy": "required",
             "hasReservedExecution": false,
-            "termsPerformance": "A set of KPIs will be developed for this contract and the successful contractor will be measured against these for the duration of the contract. Please refer to briefing document for further details."
+            "reservedExecution": "Sheltered employment programmes",
+            "termsPerformance": "A set of KPIs will be developed for this contract and the successful contractor will be measured against these for the duration of the contract. Please refer to briefing document for further details.",
+            "financialTerms": "In the event that a work referred to in § 2.6 of the Agreement is created as part of the implementation of the Subject Matter of the Agreement, the Contractor shall indicate on the invoice what proportion of the remuneration for implementation.",
+            "tendererLegalForm": "Contractors may jointly apply for the contract."
         }
     }
 }
