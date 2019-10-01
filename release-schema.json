@@ -66,10 +66,33 @@
         "reservedExecution": {
           "title": "Reserved execution",
           "description": "The profession or type of supplier to which the execution of the contract is reserved.",
-          "type": [
-            "string",
-            "null"
-          ]
+          "type": "object",
+          "properties": {
+            "shelteredEmployment": {
+              "title": "Sheltered employment",
+              "description": "Whether the execution of the contract is restricted to the framework of sheltered employment programmes.",
+              "type": [
+                "boolean",
+                "null"
+              ]
+            },
+            "particularProfession": {
+              "title": "Particular profession",
+              "description": "Whether the execution of the service is reserved to a particular profession.",
+              "type": [
+                "boolean",
+                "null"
+              ]
+            },
+            "particularProfessionDetails": {
+              "title": "Particular profession details",
+              "description": "A reference to the relevant law, regulation or administrative provision.",
+              "type": [
+                "boolean",
+                "null"
+              ]
+            }
+          }
         },
         "performanceTerms": {
           "title": "Terms performance",
