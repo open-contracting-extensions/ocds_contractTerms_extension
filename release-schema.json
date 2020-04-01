@@ -86,6 +86,56 @@
             "string",
             "null"
           ]
+        },
+        "hasExclusiveRights": {
+          "title": "Has exclusive rights",
+          "description": "The procuring entity grants the contractor the right to perform the public service described in the contract free of competition.",
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "exclusiveRights": {
+          "title": "Exclusive rights",
+          "description": "Specification of the exclusive rights granted by the procuring entity to the contractor.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "operatorRevenueShare": {
+          "title": "Operator revenue share",
+          "description": "Percentage of the revenues from sales and tickets allocated to the contractor.",
+          "type": [
+            "number",
+            "null"
+          ],
+          "maximum": 1,
+          "minimum": 0
+        },
+        "otherTerms": {
+          "title": "Other terms",
+          "description": "Conditions specified in the contract that do not fit in other fields.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "rewardsAndPenalties": {
+          "title": "Rewards and penalties",
+          "description": "Information about rewards and penalties.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "socialStandards": {
+          "title": "Social standards",
+          "description": "List of standards required, such as staff contractual rights and conditions under which employees are considered to be linked to the services.",
+          "type": [
+            "string",
+            "null"
+          ]
         }
       }
     }
