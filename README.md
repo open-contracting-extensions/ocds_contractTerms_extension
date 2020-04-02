@@ -24,7 +24,6 @@ In the European Union, this extension's fields correspond to [eForms BG-711 (Con
       "tendererLegalForm": "Contractors may jointly apply for the contract.",
       "hasExclusiveRights": false,
       "operatorRevenueShare": 0.25,
-      "otherTerms": "Other contractual terms not covered by the other fields",
       "socialStandards": "The contractor maintains the social, collective bargaining and labor law obligations according to Union law, national law or collective agreements. 4 paragraph 4a Regulation 13707/2007."
     }
   }
