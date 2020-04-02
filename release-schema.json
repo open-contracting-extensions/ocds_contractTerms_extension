@@ -89,7 +89,7 @@
         },
         "hasExclusiveRights": {
           "title": "Has exclusive rights",
-          "description": "The procuring entity grants the contractor the right to perform the public service described in the contract free of competition.",
+          "description": "A right entitling a public service operator to operate certain public passenger transport services on a particular route or network or in a particular area, to the exclusion of any other such operator.",
           "type": [
             "boolean",
             "null"
@@ -105,7 +105,7 @@
         },
         "operatorRevenueShare": {
           "title": "Operator revenue share",
-          "description": "Percentage of the revenues from sales and tickets allocated to the contractor.",
+          "description": "The percentage of the revenues from the sale of tickets allocated to the contractor.",
           "type": [
             "number",
             "null"
@@ -123,7 +123,7 @@
         },
         "rewardsAndPenalties": {
           "title": "Rewards and penalties",
-          "description": "Information about rewards and penalties.",
+          "description": "Information about rewards and penalties relating to quality targets.",
           "type": [
             "string",
             "null"
@@ -131,7 +131,7 @@
         },
         "socialStandards": {
           "title": "Social standards",
-          "description": "List of standards required, such as staff contractual rights and conditions under which employees are considered to be linked to the services.",
+          "description": "The required social standards, for example: detail of the contractual rights of the staff concerned, and conditions under which employees are considered to be linked to the services.",
           "type": [
             "string",
             "null"
