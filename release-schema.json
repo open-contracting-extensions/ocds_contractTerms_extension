@@ -97,7 +97,7 @@
         },
         "exclusiveRights": {
           "title": "Exclusive rights",
-          "description": "Specification of the exclusive rights granted by the procuring entity to the contractor.",
+          "description": "The nature and extent of the exclusive rights granted by the procuring entity to the contractor.",
           "type": [
             "string",
             "null"
