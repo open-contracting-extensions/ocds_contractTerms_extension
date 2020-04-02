@@ -105,7 +105,7 @@
         },
         "operatorRevenueShare": {
           "title": "Operator revenue share",
-          "description": "The percentage of the revenues from the sale of tickets allocated to the contractor.",
+          "description": "The percentage of revenue from the sale of tickets allocated to the contractor.",
           "type": [
             "number",
             "null"
