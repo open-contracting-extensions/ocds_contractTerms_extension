@@ -115,7 +115,7 @@
         },
         "otherTerms": {
           "title": "Other terms",
-          "description": "Conditions specified in the contract that do not fit in other fields.",
+          "description": "Other contract terms that do not fit the semantics of any other OCDS field.",
           "type": [
             "string",
             "null"
