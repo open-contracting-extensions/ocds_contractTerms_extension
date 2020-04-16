@@ -97,7 +97,7 @@
         },
         "exclusiveRights": {
           "title": "Exclusive rights",
-          "description": "The nature and extent of the exclusive rights granted by the procuring entity to the contractor.",
+          "description": "The nature and extent of the exclusive rights granted by the procuring entity to the supplier.",
           "type": [
             "string",
             "null"
@@ -105,7 +105,7 @@
         },
         "operatorRevenueShare": {
           "title": "Operator revenue share",
-          "description": "The percentage of revenue from the sale of tickets allocated to the contractor.",
+          "description": "The percentage of revenue from the sale of tickets allocated to the supplier.",
           "type": [
             "number",
             "null"
