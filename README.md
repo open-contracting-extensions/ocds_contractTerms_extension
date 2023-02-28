@@ -6,7 +6,7 @@ Adds a contract terms object to the tender and lot objects, to describe the term
 
 ## Legal context
 
-In the European Union, this extension's fields correspond to [eForms BG-711 (Contract Terms)](https://github.com/eForms/eForms), although not all the fields have been implemented yet. See [OCDS for the European Union](http://standard.open-contracting.org/profiles/eu/master/en/) for the correspondences to Tenders Electronic Daily (TED).
+In the European Union, this extension's fields correspond to [eForms BG-711 (Contract Terms)](https://docs.ted.europa.eu/eforms/latest/reference/business-terms/), although not all the fields have been implemented yet. See [OCDS for the European Union](http://standard.open-contracting.org/profiles/eu/master/en/) for the correspondences to Tenders Electronic Daily (TED).
 
 ## Example
 
