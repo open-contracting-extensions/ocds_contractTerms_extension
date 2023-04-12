@@ -143,9 +143,72 @@
             "null"
           ],
           "minLength": 1
+        },
+        "hasNonDisclosureAgreement": {
+          "title": "Has non disclosure agreement",
+          "description": "Whether or not the contract execution will require the use of a non disclosure agreement.",
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "nonDisclosureAgreement": {
+          "title": "Non disclosure agreement",
+          "description": "The nature and extent of the non disclosure agreement required as part of the contract execution.",
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "customerServices": {
+          "title": "Customer services",
+          "description": "The customer services the supplier is required to supply as part of this contract.",
+          "type": "array",
+          "uniqueItems": true,
+          "wholeListMerge": true,
+          "minItems": 1,
+          "items": {
+            "$ref": "#/definitions/CustomerService"
+          }
         }
       },
       "minProperties": 1
+    },
+    "CustomerService": {
+      "title": "Customer service",
+      "description": "Information about a customer service requirement linked to this contract.",
+      "minProperties": 1,
+      "type": "object",
+      "properties": {
+        "type": {
+          "title": "Type",
+          "description": "The code that defines the type of customer service requirement.",
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "name": {
+          "title": "Name",
+          "description": "The name of the customer service requirement.",
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "description": {
+          "title": "Description",
+          "description": "The description of the customer service requirement.",
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        }
+      }
     }
   }
 }
