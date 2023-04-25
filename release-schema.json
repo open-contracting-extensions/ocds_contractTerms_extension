@@ -177,7 +177,7 @@
     },
     "CustomerService": {
       "title": "Customer service",
-      "description": "Information about a customer service requirement linked to this contract.",
+      "description": "A customer service requirement.",
       "minProperties": 1,
       "type": "object",
       "properties": {
