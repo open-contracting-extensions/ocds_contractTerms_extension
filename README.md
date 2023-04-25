@@ -62,7 +62,7 @@ In the European Union, this extension's fields correspond to [eForms BG-711 (Con
           "operatorRevenueShare": 0.25,
           "socialStandards": "The supplier maintains the social, collective bargaining and labor law obligations according to Union law, national law or collective agreements. 4 paragraph 4a Regulation 13707/2007.",
           "hasNonDisclosureAgreement": true,
-          "nonDisclosureAgreement": "A Non Disclosure Agreement will need to ...",
+          "nonDisclosureAgreement": "A non-disclosure agreement is required in order to...",
           "customerServices": [
             {
               "type": "clean",
