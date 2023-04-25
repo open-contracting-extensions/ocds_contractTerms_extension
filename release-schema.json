@@ -146,7 +146,7 @@
         },
         "hasNonDisclosureAgreement": {
           "title": "Has non-disclosure agreement",
-          "description": "Whether or not the contract execution will require the use of a non disclosure agreement.",
+          "description": "Whether contract execution requires a non-disclosure agreement.",
           "type": [
             "boolean",
             "null"
