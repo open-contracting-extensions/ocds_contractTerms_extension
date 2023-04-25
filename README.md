@@ -85,7 +85,7 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ### 2023-03-10
 
-* Add `hasNonDisclosureAgreement`, `nonDisclosureAgreement`, `CustomerService` and `contractTerms.customerServices`.
+* Add `.hasNonDisclosureAgreement`, `.nonDisclosureAgreement` and `.customerServices` fields.
 
 ### 2020-04-24
 
