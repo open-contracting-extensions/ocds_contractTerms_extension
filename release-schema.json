@@ -201,7 +201,7 @@
         },
         "description": {
           "title": "Description",
-          "description": "The description of the customer service requirement.",
+          "description": "A description of this customer service requirement.",
           "type": [
             "string",
             "null"
