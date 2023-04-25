@@ -163,7 +163,7 @@
         },
         "customerServices": {
           "title": "Customer services",
-          "description": "The customer services the supplier is required to supply as part of this contract.",
+          "description": "Information about customer service requirements.",
           "type": "array",
           "uniqueItems": true,
           "wholeListMerge": true,
