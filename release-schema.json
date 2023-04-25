@@ -154,7 +154,7 @@
         },
         "nonDisclosureAgreement": {
           "title": "Non-disclosure agreement",
-          "description": "The nature and extent of the non-disclosure agreement required as part of the contract execution.",
+          "description": "A description of the non-disclosure agreement required for contract execution.",
           "type": [
             "string",
             "null"
