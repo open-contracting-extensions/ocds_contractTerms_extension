@@ -183,7 +183,7 @@
       "properties": {
         "type": {
           "title": "Type",
-          "description": "The code that defines the type of customer service requirement.",
+          "description": "The type of this customer service requirement.",
           "type": [
             "string",
             "null"
