@@ -143,9 +143,72 @@
             "null"
           ],
           "minLength": 1
+        },
+        "hasNonDisclosureAgreement": {
+          "title": "Has non-disclosure agreement",
+          "description": "Whether contract execution requires a non-disclosure agreement.",
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "nonDisclosureAgreement": {
+          "title": "Non-disclosure agreement",
+          "description": "A description of the non-disclosure agreement required for contract execution.",
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "customerServices": {
+          "title": "Customer services",
+          "description": "Information about customer service requirements.",
+          "type": "array",
+          "uniqueItems": true,
+          "wholeListMerge": true,
+          "minItems": 1,
+          "items": {
+            "$ref": "#/definitions/CustomerService"
+          }
         }
       },
       "minProperties": 1
+    },
+    "CustomerService": {
+      "title": "Customer service",
+      "description": "A customer service requirement.",
+      "minProperties": 1,
+      "type": "object",
+      "properties": {
+        "type": {
+          "title": "Type",
+          "description": "The type of this customer service requirement.",
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "name": {
+          "title": "Name",
+          "description": "A name for this customer service requirement.",
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "description": {
+          "title": "Description",
+          "description": "A description of this customer service requirement.",
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        }
+      }
     }
   }
 }
