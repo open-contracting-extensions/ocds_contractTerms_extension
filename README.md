@@ -8,7 +8,7 @@ If you are using the [Lots extension](https://extensions.open-contracting.org/en
 
 ## Legal context
 
-In the European Union, this extension's fields correspond to [eForms BG-711 (Contract Terms), BT-801 (Non Disclosure Agreement), BT-802 (Non Disclosure Agreement Description), OPT-071 (Quality Target Code) and OPT-072 (Quality Target Description)](https://docs.ted.europa.eu/eforms/latest/reference/business-terms/). See [OCDS for eForms](https://standard.open-contracting.org/profiles/eforms/) for the correspondences to eForms fields. See [OCDS for the European Union](http://standard.open-contracting.org/profiles/eu/master/en/) for the correspondences to Tenders Electronic Daily (TED).
+In the European Union, this extension's fields correspond to [eForms BG-711 (Contract Terms), BT-801 (Non Disclosure Agreement), BT-802 (Non Disclosure Agreement Description), OPT-071 (Quality Target Code) and OPT-072 (Quality Target Description)](https://docs.ted.europa.eu/eforms/latest/reference/business-terms/). For correspondences to eForms fields, see [OCDS for eForms](https://standard.open-contracting.org/profiles/eforms/). For correspondences to Tenders Electronic Daily (TED), see [OCDS for the European Union](http://standard.open-contracting.org/profiles/eu/master/en/).
 
 ## Example
 
