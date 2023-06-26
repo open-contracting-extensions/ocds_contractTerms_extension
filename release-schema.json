@@ -46,8 +46,8 @@
             "string",
             "null"
           ],
-          "openCodelist": false,
           "codelist": "permission.csv",
+          "openCodelist": false,
           "enum": [
             "required",
             "allowed",
@@ -165,12 +165,12 @@
           "title": "Customer services",
           "description": "Information about customer service requirements.",
           "type": "array",
-          "uniqueItems": true,
-          "wholeListMerge": true,
-          "minItems": 1,
           "items": {
             "$ref": "#/definitions/CustomerService"
-          }
+          },
+          "wholeListMerge": true,
+          "uniqueItems": true,
+          "minItems": 1
         }
       },
       "minProperties": 1
@@ -178,7 +178,6 @@
     "CustomerService": {
       "title": "Customer service",
       "description": "A customer service requirement.",
-      "minProperties": 1,
       "type": "object",
       "properties": {
         "type": {
@@ -208,7 +207,8 @@
           ],
           "minLength": 1
         }
-      }
+      },
+      "minProperties": 1
     }
   }
 }
