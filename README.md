@@ -83,6 +83,10 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ## Changelog
 
+### 2023-12-04
+
+* Update and clarify `operatorRevenueShare` field description.
+
 ### 2023-03-10
 
 * Add `hasNonDisclosureAgreement`, `nonDisclosureAgreement` and `customerServices` fields.

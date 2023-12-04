@@ -109,7 +109,7 @@
         },
         "operatorRevenueShare": {
           "title": "Operator revenue share",
-          "description": "The percentage of revenue from the sale of tickets allocated to the supplier.",
+          "description": "The percentage of revenue from the sale of tickets allocated to the supplier, expressed as a decimal proportion between 0 and 1.",
           "type": [
             "number",
             "null"
